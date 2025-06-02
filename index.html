@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced CSS & JS Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Responsive Web + Interactive Quiz + API Fetch</h1>
+
+  <section class="quiz-section">
+    <h2>Simple Quiz</h2>
+    <div id="quiz-container">
+      <p id="question">Loading question...</p>
+      <div id="answers"></div>
+      <button onclick="nextQuestion()">Next</button>
+    </div>
+  </section>
+
+  <section class="api-section">
+    <h2>Joke API</h2>
+    <button onclick="fetchJoke()">Get a Joke</button>
+    <p id="joke">Click the button to see a joke!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
